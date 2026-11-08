@@ -1,17 +1,10 @@
 [package]
-name = "sigmaos-theme-component"
+name = "sigmaos_theme_color"
 version = "0.1.0"
 edition = "2021"
-authors = ["SigmaOS Team"]
-license = "MIT OR Apache-2.0"
-description = "SigmaOS theme component with sophisticated implementation"
+license = "MIT"
+description = "SigmaOS theme-color component inspired by Linux Mint / Omarchy / Arch Linux."
 
-[dependencies]
-anyhow = "1.0"
-thiserror = "1.0"
-log = "0.4"
-env_logger = "0.10"
-serde = { version = "1.0", features = ["derive"] }
-toml = "0.8"
-
-[dev-dependencies]
+[lib]
+name = "sigmaos_theme_color"
+path = "src/lib.rs"
