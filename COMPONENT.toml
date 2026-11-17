@@ -1,6 +1,6 @@
 [component]
 name = "SigmaOS-theme-color"
-description = "SigmaOS subsystem component for theme-color"
+description = "Palette / accent colour engine"
 version = "0.1.0"
 tier = 5
 
