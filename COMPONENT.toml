@@ -3,7 +3,18 @@ name = "SigmaOS-theme-color"
 description = "Palette / accent colour engine"
 version = "0.1.0"
 tier = 5
+stability = "beta"
+language = "rust"
 
 [capabilities]
 contract_version = "1.0.0"
 principles = ["DRY", "KISS", "SOLID", "Arrange-Act-Assert", "Pristine-Sources"]
+
+[contract]
+provides = ["palette-engine", "accent-color-harmonizer"]
+depends_on = []
+
+[maturity]
+status = "Implemented"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
